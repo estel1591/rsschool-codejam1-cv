@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
@@ -78,5 +80,47 @@
         </article>
     </div>
 </div>
+<div id="screen-skills" class="skills">
+    <div class="container">
+        <article>
+            <h2>Skills</h2>
+            <img src="img/arrow.png" alt="стрелка">
+            <div>
+                <img src="img/skills1.png" alt="logo-html">
+                <img src="img/skills2.png" alt="logo-css">
+                <img src="img/skills3.png" alt="logo-js">
+                <img src="img/skills4.png" alt="logo-bootstrap">
+                <img src="img/skills5.png" alt="logo-webpack">
+                <img src="img/skills6.png" alt="logo-react">
+            </div>
+            <p>Уровень владения английским: <em>читаю художественную литературу,
+                могу рассказать о себе и окружающем мире на уровне
+                А2</em></p>
+        </article>
+    </div>
+</div>
+<div id="screen-code" class="code">
+    <div class="container">
+        <article>
+            <h2>Примеры <br> кода</h2>
+            <div class="slider-code">
+                <img src="img/code1.jpg" alt="code print-form">
+                <img src="img/code2.jpg" alt="code sudoku">
+                <img src="img/code3.jpg" alt="code sudoku">
+            </div>
+        </article>
+    </div>
+</div>
+<!-- slider -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/slick.js"></script>
+<script>
+    $('.slider-code').slick({
+        dots: false,
+        arrows: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+</script>
 </body>
 </html>
