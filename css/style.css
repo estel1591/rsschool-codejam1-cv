@@ -59,7 +59,7 @@ body {
 
 .about-left,
 .about-right {
-    padding: 75px 0 0 0px;
+    padding: 75px 0 0 0;
     vertical-align: top;
     display: inline-block;
     width: 49%;
@@ -223,8 +223,6 @@ p {
     font-weight: normal;
     text-align: center;
 }
-
-
 
 .summary p:after {
     position: absolute;
