@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- slider -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <title>Resume</title>
+</head>
+<body>
+<div class="about">
+    <div class="container">
+        <div class="about-inner">
+            <article class="about-left">
+                <h1>Надежда <br> Деренговская</h1>
+                <h2><a href="#screen-summary">Summary</a></h2>
+                <p>RU</p>
+                <p>EN(A2)</p>
+                <p>BY</p>
+            </article>
+            <article class="about-right">
+                <h2>Контакты</h2>
+                <ul>
+                    <li><a href="tel:+375259302479">тел.: +375 25 930 24 79</a></li>
+                    <li><a href="mailto:estel1591@mail.ru">почта: estel1591@mail.ru</a></li>
+                </ul>
+                <article>
+                    <h2>Образование</h2>
+                    <ul>
+                        <li>БГЭУ</li>
+                        <li>lider</li>
+                        <li>Belhard.academy</li>
+                        <li>Myfreedom</li>
+                    </ul>
+                </article>
+            </article>
+            <article class="about-bottom">
+                <h2><a href="#screen-skills">Skills</a></h2>
+                <h2><a href="#screen-code">Примеры кода</a></h2>
+                <h2><a href="#screen-experience">Опыт</a></h2>
+            </article>
+        </div>
+    </div>
+</div>
+<div id="screen-summary" class="summary">
+    <div class="container">
+        <article>
+            <h2>Summary</h2>
+            <p>Знания – это <strong>сила</strong>. Я ставлю своей целью <strong>узнать</strong> как можно больше о web-разработке для того, чтобы
+                <strong>помогать</strong> людям в создании удобных и полезных приложений.</p>
+            <p>Для меня действительно важно постоянно пополнять свой «арсенал» знаний, <strong>совершенствовать</strong>навыки и умения.</p>
+            <p>Меня <strong>вдохновляют</strong> сложные задачи и новые технологии, и я <strong>не</strong>от человек, который
+                <strong>останавливается</strong> на достигнутом.</p>
+        </article>
+    </div>
+</div>
+<div id="screen-experience" class="experience">
+    <div class="container">
+        <article>
+            <h2>Опыт</h2>
+            <figure class="experience-item">
+                <img src="img/num1.png" alt="номер 1">
+                <figcaption>Создание сайтов <em>лэндинг многостраничник</em></figcaption>
+            </figure>
+            <figure class="experience-item">
+                <img src="img/num2.png" alt="номер 2">
+                <figcaption>Разработка виджетов <em>для амо crm, retail crm</em></figcaption>
+            </figure>
+            <figure class="experience-item">
+                <img src="img/num3.png" alt="номер 3">
+                <figcaption>Верстка документов <em>для печати форм</em></figcaption>
+            </figure>
+            <figure class="experience-item">
+                <img src="img/num4.png" alt="номер 4">
+                <figcaption>Верстка писем <em>для email рассылки</em></figcaption>
+            </figure>
+        </article>
+    </div>
+</div>
+<div id="screen-skills" class="skills">
+    <div class="container">
+        <article>
+            <h2>Skills</h2>
+            <img src="img/arrow.png" alt="стрелка">
+            <div>
+                <img src="img/skills1.png" alt="logo-html">
+                <img src="img/skills2.png" alt="logo-css">
+                <img src="img/skills3.png" alt="logo-js">
+                <img src="img/skills4.png" alt="logo-bootstrap">
+                <img src="img/skills5.png" alt="logo-webpack">
+                <img src="img/skills6.png" alt="logo-react">
+            </div>
+            <p>Уровень владения английским: <em>читаю художественную литературу,
+                могу рассказать о себе и окружающем мире на уровне
+                А2</em></p>
+        </article>
+    </div>
+</div>
+<div id="screen-code" class="code">
+    <div class="container">
+        <article>
+            <h2>Примеры <br> кода</h2>
+            <div class="slider-code">
+                <img src="img/code1.jpg" alt="code print-form">
+                <img src="img/code2.jpg" alt="code sudoku">
+                <img src="img/code3.jpg" alt="code sudoku">
+            </div>
+        </article>
+    </div>
+</div>
+<!-- slider -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/slick.js"></script>
+<script>
+    $('.slider-code').slick({
+        dots: false,
+        arrows: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+</script>
+</body>
+</html>

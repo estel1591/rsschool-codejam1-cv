@@ -1,0 +1,72 @@
+body {
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 0.875rem;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #111111;
+    
+}
+
+body img {
+    max-width: 100%;
+    display: inline;
+}
+
+body input[type="button"], 
+body input[type="submit"], 
+body input[type="reset"], 
+body input[type="file"]::-webkit-file-upload-button, 
+body button,
+body button:focus {
+    -webkit-box-align: center;
+    text-align: center;
+    color: inherit;
+    border: inherit;
+    outline: none;
+}
+
+body input {
+    font-weight: normal;
+}
+
+body p,
+body * {
+    margin-bottom: 0;    
+}
+
+body ol, 
+body ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+}
+
+body a,
+body a:focus, 
+body a:hover{
+    text-decoration: none;  
+}
+
+body a,
+body a:focus, body a:hover {
+    color: inherit;
+}
+
+body .slick-slide img {
+    display: inline;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body p {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+        
+}
+
+h2 {
+    margin: 0;
+}
